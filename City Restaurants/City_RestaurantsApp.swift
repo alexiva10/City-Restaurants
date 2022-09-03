@@ -11,7 +11,7 @@ import SwiftUI
 struct City_RestaurantsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
         }
     }
 }

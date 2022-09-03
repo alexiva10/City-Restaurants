@@ -52,7 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				92D9A8C828C3C43E0074B23D /* City_RestaurantsApp.swift */,
-				92D9A8CA28C3C43E0074B23D /* ContentView.swift */,
+				92D9A8D828C3C4B60074B23D /* ViewModels */,
+				92D9A8D728C3C4B10074B23D /* Views */,
+				92D9A8D628C3C4AA0074B23D /* Models */,
 				92D9A8CC28C3C43F0074B23D /* Assets.xcassets */,
 				92D9A8CE28C3C43F0074B23D /* Preview Content */,
 			);
@@ -65,6 +67,28 @@
 				92D9A8CF28C3C43F0074B23D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92D9A8D628C3C4AA0074B23D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92D9A8D728C3C4B10074B23D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92D9A8CA28C3C43E0074B23D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92D9A8D828C3C4B60074B23D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
