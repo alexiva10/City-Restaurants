@@ -12,6 +12,9 @@
 		92D9A8CD28C3C43F0074B23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D9A8CC28C3C43F0074B23D /* Assets.xcassets */; };
 		92D9A8D028C3C43F0074B23D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D9A8CF28C3C43F0074B23D /* Preview Assets.xcassets */; };
 		92D9A8DA28C49DA90074B23D /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D9A8D928C49DA90074B23D /* ContentModel.swift */; };
+		92E7E38428CA3FA100C594F4 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E38328CA3FA100C594F4 /* Business.swift */; };
+		92E7E38628CA413C00C594F4 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E38528CA413C00C594F4 /* BusinessSearch.swift */; };
+		92E7E38A28CA439700C594F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E38928CA439700C594F4 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,10 @@
 		92D9A8CC28C3C43F0074B23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92D9A8CF28C3C43F0074B23D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92D9A8D928C49DA90074B23D /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		92E7E38328CA3FA100C594F4 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		92E7E38528CA413C00C594F4 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
+		92E7E38928CA439700C594F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		92E7E38B28CA455F00C594F4 /* City-Restaurants-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "City-Restaurants-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +60,12 @@
 		92D9A8C728C3C43E0074B23D /* City Restaurants */ = {
 			isa = PBXGroup;
 			children = (
+				92E7E38B28CA455F00C594F4 /* City-Restaurants-Info.plist */,
 				92D9A8C828C3C43E0074B23D /* CityRestaurantsApp.swift */,
 				92D9A8D828C3C4B60074B23D /* ViewModels */,
 				92D9A8D728C3C4B10074B23D /* Views */,
 				92D9A8D628C3C4AA0074B23D /* Models */,
+				92E7E38828CA437700C594F4 /* Helpers */,
 				92D9A8CC28C3C43F0074B23D /* Assets.xcassets */,
 				92D9A8CE28C3C43F0074B23D /* Preview Content */,
 			);
@@ -74,6 +83,8 @@
 		92D9A8D628C3C4AA0074B23D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				92E7E38328CA3FA100C594F4 /* Business.swift */,
+				92E7E38528CA413C00C594F4 /* BusinessSearch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -92,6 +103,14 @@
 				92D9A8D928C49DA90074B23D /* ContentModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		92E7E38828CA437700C594F4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				92E7E38928CA439700C594F4 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +184,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D9A8CB28C3C43E0074B23D /* LaunchView.swift in Sources */,
+				92E7E38428CA3FA100C594F4 /* Business.swift in Sources */,
 				92D9A8C928C3C43E0074B23D /* CityRestaurantsApp.swift in Sources */,
+				92E7E38628CA413C00C594F4 /* BusinessSearch.swift in Sources */,
 				92D9A8DA28C49DA90074B23D /* ContentModel.swift in Sources */,
+				92E7E38A28CA439700C594F4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +320,7 @@
 				DEVELOPMENT_TEAM = 2T9W4428P9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "City-Restaurants-Info.plist";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants near the user";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +351,7 @@
 				DEVELOPMENT_TEAM = 2T9W4428P9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "City-Restaurants-Info.plist";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants near the user";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
