@@ -15,6 +15,10 @@
 		92E7E38428CA3FA100C594F4 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E38328CA3FA100C594F4 /* Business.swift */; };
 		92E7E38628CA413C00C594F4 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E38528CA413C00C594F4 /* BusinessSearch.swift */; };
 		92E7E38A28CA439700C594F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E38928CA439700C594F4 /* Constants.swift */; };
+		92E7E39228CB52C500C594F4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E39128CB52C500C594F4 /* HomeView.swift */; };
+		92E7E39528CB54AE00C594F4 /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E39428CB54AE00C594F4 /* BusinessList.swift */; };
+		92E7E39728CB566400C594F4 /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E39628CB566400C594F4 /* BusinessSectionHeader.swift */; };
+		92E7E39928CB571700C594F4 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E39828CB571700C594F4 /* BusinessSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		92E7E38528CA413C00C594F4 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
 		92E7E38928CA439700C594F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		92E7E38B28CA455F00C594F4 /* City-Restaurants-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "City-Restaurants-Info.plist"; sourceTree = SOURCE_ROOT; };
+		92E7E39128CB52C500C594F4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		92E7E39428CB54AE00C594F4 /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
+		92E7E39628CB566400C594F4 /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
+		92E7E39828CB571700C594F4 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				92D9A8CA28C3C43E0074B23D /* LaunchView.swift */,
+				92E7E38E28CB500400C594F4 /* Home */,
+				92E7E38D28CB4FFA00C594F4 /* Denied */,
+				92E7E38C28CB4FF000C594F4 /* Onboarding */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +122,39 @@
 				92E7E38928CA439700C594F4 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		92E7E38C28CB4FF000C594F4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		92E7E38D28CB4FFA00C594F4 /* Denied */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Denied;
+			sourceTree = "<group>";
+		};
+		92E7E38E28CB500400C594F4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				92E7E39128CB52C500C594F4 /* HomeView.swift */,
+				92E7E39328CB549D00C594F4 /* List */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		92E7E39328CB549D00C594F4 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				92E7E39428CB54AE00C594F4 /* BusinessList.swift */,
+				92E7E39628CB566400C594F4 /* BusinessSectionHeader.swift */,
+				92E7E39828CB571700C594F4 /* BusinessSection.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +228,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D9A8CB28C3C43E0074B23D /* LaunchView.swift in Sources */,
+				92E7E39228CB52C500C594F4 /* HomeView.swift in Sources */,
 				92E7E38428CA3FA100C594F4 /* Business.swift in Sources */,
+				92E7E39728CB566400C594F4 /* BusinessSectionHeader.swift in Sources */,
 				92D9A8C928C3C43E0074B23D /* CityRestaurantsApp.swift in Sources */,
 				92E7E38628CA413C00C594F4 /* BusinessSearch.swift in Sources */,
+				92E7E39528CB54AE00C594F4 /* BusinessList.swift in Sources */,
+				92E7E39928CB571700C594F4 /* BusinessSection.swift in Sources */,
 				92D9A8DA28C49DA90074B23D /* ContentModel.swift in Sources */,
 				92E7E38A28CA439700C594F4 /* Constants.swift in Sources */,
 			);
