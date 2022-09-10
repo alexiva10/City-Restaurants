@@ -149,6 +149,7 @@
 			children = (
 				92E7E39128CB52C500C594F4 /* HomeView.swift */,
 				92E7E39F28CC772A00C594F4 /* Map */,
+				92E7E39C28CC678400C594F4 /* Detail */,
 				92E7E39328CB549D00C594F4 /* List */,
 			);
 			path = Home;
@@ -157,7 +158,6 @@
 		92E7E39328CB549D00C594F4 /* List */ = {
 			isa = PBXGroup;
 			children = (
-				92E7E39C28CC678400C594F4 /* Detail */,
 				92E7E39428CB54AE00C594F4 /* BusinessList.swift */,
 				92E7E39628CB566400C594F4 /* BusinessSectionHeader.swift */,
 				92E7E39828CB571700C594F4 /* BusinessSection.swift */,
