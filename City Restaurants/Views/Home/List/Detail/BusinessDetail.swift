@@ -46,10 +46,11 @@ struct BusinessDetail: View {
                     .font(.largeTitle)
                     .padding()
                 // Adress
-                if business.location?.displayAdress != nil {
-                    ForEach(business.location!.displayAdress!, id: \.self) { displayLine in
+                if business.location?.displayAddress != nil {
+                    ForEach(business.location!.displayAddress!, id: \.self) { displayLine in
                         Text(displayLine)
                             .padding(.horizontal)
+                            .foregroundColor(.black)
                     }
                 }
                 // Rating

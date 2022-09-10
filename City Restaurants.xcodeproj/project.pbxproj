@@ -21,6 +21,7 @@
 		92E7E39928CB571700C594F4 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E39828CB571700C594F4 /* BusinessSection.swift */; };
 		92E7E39B28CB5B6700C594F4 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E39A28CB5B6700C594F4 /* BusinessRow.swift */; };
 		92E7E39E28CC679500C594F4 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E39D28CC679500C594F4 /* BusinessDetail.swift */; };
+		92E7E3A128CC774C00C594F4 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3A028CC774C00C594F4 /* BusinessMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		92E7E39828CB571700C594F4 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 		92E7E39A28CB5B6700C594F4 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		92E7E39D28CC679500C594F4 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		92E7E3A028CC774C00C594F4 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				92E7E39128CB52C500C594F4 /* HomeView.swift */,
+				92E7E39F28CC772A00C594F4 /* Map */,
 				92E7E39328CB549D00C594F4 /* List */,
 			);
 			path = Home;
@@ -169,6 +172,14 @@
 				92E7E39D28CC679500C594F4 /* BusinessDetail.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		92E7E39F28CC772A00C594F4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				92E7E3A028CC774C00C594F4 /* BusinessMap.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 				92E7E39E28CC679500C594F4 /* BusinessDetail.swift in Sources */,
 				92E7E38628CA413C00C594F4 /* BusinessSearch.swift in Sources */,
 				92E7E39528CB54AE00C594F4 /* BusinessList.swift in Sources */,
+				92E7E3A128CC774C00C594F4 /* BusinessMap.swift in Sources */,
 				92E7E39928CB571700C594F4 /* BusinessSection.swift in Sources */,
 				92D9A8DA28C49DA90074B23D /* ContentModel.swift in Sources */,
 				92E7E38A28CA439700C594F4 /* Constants.swift in Sources */,
