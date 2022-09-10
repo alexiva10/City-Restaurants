@@ -22,6 +22,9 @@
 		92E7E39B28CB5B6700C594F4 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E39A28CB5B6700C594F4 /* BusinessRow.swift */; };
 		92E7E39E28CC679500C594F4 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E39D28CC679500C594F4 /* BusinessDetail.swift */; };
 		92E7E3A128CC774C00C594F4 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3A028CC774C00C594F4 /* BusinessMap.swift */; };
+		92E7E3A328CCB8B500C594F4 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3A228CCB8B500C594F4 /* DirectionsView.swift */; };
+		92E7E3A528CCB90400C594F4 /* BusinessTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3A428CCB90400C594F4 /* BusinessTitle.swift */; };
+		92E7E3A728CCBD6000C594F4 /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3A628CCBD6000C594F4 /* DirectionsMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		92E7E39A28CB5B6700C594F4 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		92E7E39D28CC679500C594F4 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
 		92E7E3A028CC774C00C594F4 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
+		92E7E3A228CCB8B500C594F4 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		92E7E3A428CCB90400C594F4 /* BusinessTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTitle.swift; sourceTree = "<group>"; };
+		92E7E3A628CCBD6000C594F4 /* DirectionsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				92E7E39D28CC679500C594F4 /* BusinessDetail.swift */,
+				92E7E3A228CCB8B500C594F4 /* DirectionsView.swift */,
+				92E7E3A428CCB90400C594F4 /* BusinessTitle.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -178,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				92E7E3A028CC774C00C594F4 /* BusinessMap.swift */,
+				92E7E3A628CCBD6000C594F4 /* DirectionsMap.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -252,14 +261,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E7E3A728CCBD6000C594F4 /* DirectionsMap.swift in Sources */,
 				92D9A8CB28C3C43E0074B23D /* LaunchView.swift in Sources */,
 				92E7E39B28CB5B6700C594F4 /* BusinessRow.swift in Sources */,
+				92E7E3A328CCB8B500C594F4 /* DirectionsView.swift in Sources */,
 				92E7E39228CB52C500C594F4 /* HomeView.swift in Sources */,
 				92E7E38428CA3FA100C594F4 /* Business.swift in Sources */,
 				92E7E39728CB566400C594F4 /* BusinessSectionHeader.swift in Sources */,
 				92D9A8C928C3C43E0074B23D /* CityRestaurantsApp.swift in Sources */,
 				92E7E39E28CC679500C594F4 /* BusinessDetail.swift in Sources */,
 				92E7E38628CA413C00C594F4 /* BusinessSearch.swift in Sources */,
+				92E7E3A528CCB90400C594F4 /* BusinessTitle.swift in Sources */,
 				92E7E39528CB54AE00C594F4 /* BusinessList.swift in Sources */,
 				92E7E3A128CC774C00C594F4 /* BusinessMap.swift in Sources */,
 				92E7E39928CB571700C594F4 /* BusinessSection.swift in Sources */,
