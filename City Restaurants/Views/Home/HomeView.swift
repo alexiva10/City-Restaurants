@@ -15,23 +15,27 @@ struct HomeView: View {
     var body: some View {
         
         if model.restaurants.count != 0 || model.sights.count != 0 {
-            // Show map or list
-            if !isMapShowing {
-                // Show list
-                VStack (alignment: .leading) {
-                    HStack {
-                        Image(systemName: "location")
-                        Text("Bucuresti")
-                        Spacer()
-                        Text("Switch to map view")
+            
+            NavigationView {
+                // Show map or list
+                if !isMapShowing {
+                    // Show list
+                    VStack (alignment: .leading) {
+                        HStack {
+                            Image(systemName: "location")
+                            Text("Bucuresti")
+                            Spacer()
+                            Text("Switch to map view")
+                        }
+                        Divider()
+                        BusinessList()
                     }
-                    Divider()
-                    BusinessList()
+                    .padding([.horizontal, .top])
+                    .navigationBarHidden(true)
                 }
-                .padding([.horizontal, .top])
-            }
-            else {
-                // Show map
+                else {
+                    // Show map
+                }
             }
         } else {
             ProgressView()
