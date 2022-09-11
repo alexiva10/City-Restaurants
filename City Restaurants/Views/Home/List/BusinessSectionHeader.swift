@@ -16,6 +16,7 @@ struct BusinessSectionHeader: View {
         ZStack (alignment: .leading) {
             Rectangle()
                 .foregroundColor(.white)
+                .frame(height: 45)
             Text(title)
                 .font(.headline)
         }
