@@ -25,6 +25,8 @@
 		92E7E3A328CCB8B500C594F4 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3A228CCB8B500C594F4 /* DirectionsView.swift */; };
 		92E7E3A528CCB90400C594F4 /* BusinessTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3A428CCB90400C594F4 /* BusinessTitle.swift */; };
 		92E7E3A728CCBD6000C594F4 /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3A628CCBD6000C594F4 /* DirectionsMap.swift */; };
+		92E7E3A928CE58D200C594F4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3A828CE58D200C594F4 /* OnboardingView.swift */; };
+		92E7E3AB28CE60A100C594F4 /* LocationDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E3AA28CE60A100C594F4 /* LocationDeniedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		92E7E3A228CCB8B500C594F4 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
 		92E7E3A428CCB90400C594F4 /* BusinessTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTitle.swift; sourceTree = "<group>"; };
 		92E7E3A628CCBD6000C594F4 /* DirectionsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsMap.swift; sourceTree = "<group>"; };
+		92E7E3A828CE58D200C594F4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		92E7E3AA28CE60A100C594F4 /* LocationDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDeniedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 		92E7E38C28CB4FF000C594F4 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				92E7E3A828CE58D200C594F4 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 		92E7E38D28CB4FFA00C594F4 /* Denied */ = {
 			isa = PBXGroup;
 			children = (
+				92E7E3AA28CE60A100C594F4 /* LocationDeniedView.swift */,
 			);
 			path = Denied;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 				92E7E3A328CCB8B500C594F4 /* DirectionsView.swift in Sources */,
 				92E7E39228CB52C500C594F4 /* HomeView.swift in Sources */,
 				92E7E38428CA3FA100C594F4 /* Business.swift in Sources */,
+				92E7E3AB28CE60A100C594F4 /* LocationDeniedView.swift in Sources */,
 				92E7E39728CB566400C594F4 /* BusinessSectionHeader.swift in Sources */,
 				92D9A8C928C3C43E0074B23D /* CityRestaurantsApp.swift in Sources */,
 				92E7E39E28CC679500C594F4 /* BusinessDetail.swift in Sources */,
@@ -276,6 +283,7 @@
 				92E7E3A128CC774C00C594F4 /* BusinessMap.swift in Sources */,
 				92E7E39928CB571700C594F4 /* BusinessSection.swift in Sources */,
 				92D9A8DA28C49DA90074B23D /* ContentModel.swift in Sources */,
+				92E7E3A928CE58D200C594F4 /* OnboardingView.swift in Sources */,
 				92E7E38A28CA439700C594F4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
